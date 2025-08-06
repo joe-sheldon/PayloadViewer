@@ -1,0 +1,56 @@
+{
+  "name": "Drawing 0001",
+  "rev": "A",
+  "joints": {
+    "00001": {
+      "joint_number": "J000001",
+      "joint_design": "B1.V",
+      "center": [0.0, 0.0, 0.0],
+      "members": [
+        "00001",
+        "00002"
+      ]
+    },
+    "00002": {
+      "joint_number": "J000002",
+      "joint_design": "B2.V",
+      "center": [5.0, 5.0, 5.0],
+      "members": [
+        "00001",
+        "00003"
+      ]
+    }
+    },
+  "components": {
+    "00001": {
+      "part_number": "PN0001",
+      "design_id": "DESIGN0001",
+      "description": "SEAMLESS PIPE",
+      "geom_path": "geom_1.obj",
+      "faces": [
+        [8.5, 5.0, 5.0],
+        [7.5, 5.0, 5.0]
+      ]
+    },
+    "00002": {
+      "part_number": "PN0002",
+      "design_id": "DESIGN0002",
+      "description": "ELBOW",
+      "geom_path": "geom_2.obj",
+      "faces": [
+        [1.5, 5.0, 5.0],
+        [2.0, 5.0, 5.0]
+      ]
+    },
+    "00003": {
+      "part_number": "PN0003",
+      "design_id": "DESIGN0003",
+      "description": "TEAPOT",
+      "geom_path": "geom_3.obj",
+      "faces": [
+        [11.5, 5.0, 5.0],
+        [12.0, 5.0, 5.0]
+      ]
+    }
+  }
+}
